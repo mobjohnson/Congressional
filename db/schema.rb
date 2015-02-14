@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20150214014552) do
   enable_extension "plpgsql"
 
   create_table "search_items", force: true do |t|
-    t.string "query"
+    t.string "phrase"
     t.string "state1"
     t.string "state2"
   end

@@ -30,6 +30,6 @@ class SearchItemsController < ApplicationController
   end
 
   def search_item_params
-    params.require(:search_item).permit(:state1, :state2, :query)
+    params.require(:search_item).permit(:state1, :state2, :phrase)
   end
 end

@@ -24,8 +24,7 @@
           </div>
           <div class='bottom-chart-text'>
             <h2>Congressional Records Chart</h2>
-            <h3>Showing use of word in Congress by senators during prior months -- move your cursor into the chart to see details.</h3>
-            <h3> Not all Senators have Congressional Records each month!!! Perhaps, they are busy doing something else?
+            <h3>Showing use of word in Congress by congressmen during prior months -- move your cursor into the chart to see details.</h3>
            </div> 
         </span>
         
@@ -39,7 +38,7 @@
   <!-- Template for showing search items along with Delete, Edit and Run Search -->
   <script type="text/x-handlebars-template" id="search-item-template">
     <div id={{id}}>
-      <h3>States: {{state1}} and {{state2}}, using search word: {{query}}</h3>
+      <h3>States: {{state1}} and {{state2}}, using search word: {{phrase}}</h3>
       <span class='destroy'>Delete</span>
     </div>
   </script>
@@ -49,7 +48,7 @@
     <div class='search-item-form-div'>
       <input type="text" name="state1" placeholder="State like: CA">
       <input type="text" name="state2" placeholder="State like: NV">
-      <input type="text" name="query" placeholder="Word like: health">
+      <input type="text" name="phrase" placeholder="Word like: health">
       {{#if this}}
       <span class='edit-search-item'>Edit Search Item</span>
       {{else}}
