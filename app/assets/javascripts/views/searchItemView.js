@@ -13,7 +13,7 @@ var SearchItemView = Backbone.View.extend({
     console.log('New Search Item View');
     this.listenTo(this.model, 'change', this.render);
  
-     // listen for a change to collection of congressrecords associated with this searchItem model 
+    // listen for a change to collection of congressrecords associated with this searchItem model 
     this.listenTo(this.model.congressrecords, 'change', this.changeCongressRecord);
     var source = $('#search-item-template').html();
     this.template = Handlebars.compile(source);
@@ -32,15 +32,17 @@ var SearchItemView = Backbone.View.extend({
     var chartValues = [];
 
     // set up for test for undefined
+    console.log('searchItemView - this.models in render:', this.models);
+    console.log('searchItemView - this in render:&&&&&&&&&&&&&&&', this);
     this.models = recordCollection.models
     if (this.models != undefined){
       for (var i = 1; i < recordCollection.models.length; i++) {
 
         var chartValue = [];
-        console.log('recordCollection.models[i].attributes.senator_name', recordCollection.models[i].attributes.senatorName);
+        console.log('recordCollection.models[i].attributes.state********************', recordCollection.models[i].attributes.state);
 
         // Add the senator name to chartValue array
-        chartValue.push(recordCollection.models[i].attributes.senatorName);
+        chartValue.push(recordCollection.models[i].attributes.state);
 
         if (recordCollection.models[i].attributes.results != undefined){
           console.log('recordCollection.models[i].attributes.results', recordCollection.models[i].attributes.results);
