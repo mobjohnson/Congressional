@@ -9,11 +9,14 @@ App.SearchItemModel = Backbone.Model.extend({
     this.congressrecords = new App.CongressRecordCollection({});
 
     // create new congressRecordModel and adding attributes to this model for state1Record  
-    this.state1Record = new App.CongressRecordModel({phrase: this.phrase, state: this.state1, parentObject: this});
+    this.Record1 = new App.CongressRecordModel({phrase: this.phrase, state: this.state1, parentObject: this});
+    this.congressrecords.add(this.Record1);
 
     // creating new congressRecordModel and adding attributes to this model for state1Record   
-    this.state2Record = new App.CongressRecordModel({phrase: this.phrase, state: this.state2, parentObject: this});      
-
+    this.Record2 = new App.CongressRecordModel({phrase: this.phrase, state: this.state2, parentObject: this});      
+    this.congressrecords.add(this.Record2);
   },
 
 });
+
+
