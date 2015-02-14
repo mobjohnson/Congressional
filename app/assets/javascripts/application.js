@@ -21,14 +21,10 @@
 //= require_self
 //= require models/searchItemModel
 //= require models/congressRecordModel
-//= require models/senatorModel
 //= require collections/searchItemCollection
-//= require collections/senatorCollection
 //= require collections/congressRecordCollection
 //= require views/searchItemListView
 //= require views/searchItemView
-//= require views/senatorListView
-//= require views/senatorView
 //= require views/linechartView
 //= require views/congressRecordListView
 //= require views/congressRecordView
