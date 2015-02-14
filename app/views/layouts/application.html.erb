@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Senatorial</title>
+  <title>Congressional</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <header>
-    <h1>Senatorial</h1>
+    <h1>Congressional</h1>
   </header>
   <article>
     <div class='container'>  
@@ -39,7 +39,7 @@
   <!-- Template for showing search items along with Delete, Edit and Run Search -->
   <script type="text/x-handlebars-template" id="search-item-template">
     <div id={{id}}>
-      <h3>States: {{state1}} and {{state2}}, using search word: {{phrase}}</h3>
+      <h3>States: {{state1}} and {{state2}}, using search word: {{query}}</h3>
       <span class='destroy'>Delete</span>
     </div>
   </script>
@@ -49,7 +49,7 @@
     <div class='search-item-form-div'>
       <input type="text" name="state1" placeholder="State like: CA">
       <input type="text" name="state2" placeholder="State like: NV">
-      <input type="text" name="phrase" placeholder="Word like: health">
+      <input type="text" name="query" placeholder="Word like: health">
       {{#if this}}
       <span class='edit-search-item'>Edit Search Item</span>
       {{else}}
