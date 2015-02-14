@@ -5,11 +5,10 @@ App.Router = Backbone.Router.extend({
     '': 'index',
     'search_items/new': 'newSearchItem',
     'search_items/:id/edit': 'editSearchItem',
-    'senators/:state1/:state2/:phrase': 'runSearch',
-    'congress_records/:bioguideid/:phrase': 'runRecord',
+    'congress_records/:state/:phrase': 'runRecord',
 
-    // Not implemented yet?
-    'congress_records/:senator_name/recordCounts': 'loadChart'
+    // Not implemented yet
+    // 'congress_records/:senator_name/recordCounts': 'loadChart'
   },
 
   initialize: function(){
@@ -20,14 +19,13 @@ App.Router = Backbone.Router.extend({
     // Does NOT fetch yet
     App.Collections.congressRecords = new App.CongressRecordCollection({});
 
-
-    // Instantiate searchItem collection view, pass collection to it
+    // Instantiate searchItem list view, pass collection to it
     App.Views.searchItemListView = new App.SearchItemListView({collection: App.Collections.searchItems});
     // Instantiate searchItem form view, pass collection to it
     App.Views.searchItemFormView = new App.SearchItemFormView({collection: App.Collections.searchItems});
 
 
-    // Instantiate congressRecords collection view, pass collection to it
+    // Instantiate congressRecords list view, pass collection to it
     App.Views.congressRecordListView = new App.CongressRecordListView({collection: App.Collections.congressRecords});
 
   },
@@ -85,11 +83,11 @@ App.Router = Backbone.Router.extend({
     $('.add').show(500);
   },
 
-  runRecord: function(phrase, bioguideid){
-    console.log('in runRecord',phrase, bioguideid);
+  runRecord: function(state, phrase){
+    console.log('in runRecord', state, phrase);
     this.phrase = phrase;
     if (this.phrase != undefined){
-      var activeCongressRecord = new App.CongressRecordModel({phrase: this.phrase, bioguideid: bioguideid});
+      var activeCongressRecord = new App.CongressRecordModel({state: state, phrase: this.phrase});
       console.log(activeCongressRecord);
     }
     // $('.add').show(500);
@@ -98,23 +96,23 @@ App.Router = Backbone.Router.extend({
   // 
   // Not yet implemented
   // 
-  loadChart: function(senatorName, recordCounts){
-    console.log('in loadChart', senatorName, recordCounts);
+  // loadChart: function(senatorName, recordCounts){
+  //   console.log('in loadChart', senatorName, recordCounts);
  
-    // Find the specific congressRecord to reference
-    var congressRecord = App.Collections.congressRecords.get(congressRecordId);
+  //   // Find the specific congressRecord to reference
+  //   var congressRecord = App.Collections.congressRecords.get(congressRecordId);
 
-    // Set the model property on form view
-    App.Views.lineChartView.model = congressRecord;
+  //   // Set the model property on form view
+  //   App.Views.lineChartView.model = congressRecord;
 
-    // Re-render the lineChart view
-    App.Views.lineChart.render();
+  //   // Re-render the lineChart view
+  //   App.Views.lineChart.render();
 
-    // Show lineChart
-    $('#linechart').show();
+  //   // Show lineChart
+  //   $('#linechart').show();
 
     
 
-  }
+  // }
 
 });
