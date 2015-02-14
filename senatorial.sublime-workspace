@@ -1,0 +1,1335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"record",
+				"recordCollection"
+			],
+			[
+				"char",
+				"chartValue"
+			],
+			[
+				"chartVau",
+				"chartValues"
+			],
+			[
+				"congressrecord",
+				"congressrecords"
+			],
+			[
+				"num",
+				"numArray"
+			],
+			[
+				"sena",
+				"senator"
+			],
+			[
+				"state",
+				"state1Senator"
+			],
+			[
+				"ST",
+				"state1"
+			],
+			[
+				"ste",
+				"state1Senator"
+			],
+			[
+				"congr",
+				"congressRecord"
+			],
+			[
+				"con",
+				"congressRecord"
+			],
+			[
+				"congres",
+				"congressRecords"
+			],
+			[
+				"senator",
+				"senator_name"
+			],
+			[
+				"senat",
+				"senatorArray"
+			],
+			[
+				"i",
+				"if	if"
+			],
+			[
+				"senato",
+				"senator4Array"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"senator1",
+				"senator1Array"
+			],
+			[
+				"congrr",
+				"congressRecordListView"
+			],
+			[
+				"congress",
+				"congressRecordListView"
+			],
+			[
+				"sr",
+				"sr_member_ref"
+			],
+			[
+				"Search",
+				"SearchItemView"
+			],
+			[
+				"s",
+				"state2"
+			],
+			[
+				"st",
+				"state1"
+			],
+			[
+				"get",
+				"getCongRecords"
+			],
+			[
+				"jaca",
+				"javascript_include_tag	include javascript src	erb"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"se",
+				"searchItemId"
+			],
+			[
+				"sea",
+				"searchItem"
+			],
+			[
+				"search",
+				"search-item-form"
+			],
+			[
+				"sear",
+				"searchItem"
+			],
+			[
+				"Searc",
+				"SearchItemListView"
+			],
+			[
+				"set",
+				"setItemView"
+			],
+			[
+				"na",
+				"navigate"
+			],
+			[
+				"jquery",
+				"jquery-rails"
+			],
+			[
+				"sen",
+				"senator_params"
+			],
+			[
+				"movie",
+				"movie-detail"
+			],
+			[
+				"uni",
+				"uniqueWordLetters"
+			],
+			[
+				"word",
+				"wordArray"
+			],
+			[
+				"corgi",
+				"corgiView"
+			],
+			[
+				"Corgi",
+				"CorgiView"
+			],
+			[
+				"new",
+				"newEl"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"to",
+				"topic"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"po",
+				"pokemonList"
+			],
+			[
+				"findPokemon",
+				"findPokemonByType"
+			],
+			[
+				"color",
+				"color-field"
+			],
+			[
+				"revers",
+				"reverseWord"
+			],
+			[
+				"curr",
+				"currencyTo"
+			],
+			[
+				"currency",
+				"currencyFrom"
+			],
+			[
+				"currenc",
+				"currencyConverter"
+			],
+			[
+				"pounds",
+				"poundsToDollars"
+			],
+			[
+				"pou",
+				"poundsToDollars"
+			],
+			[
+				"doll",
+				"dollarsToPounds"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"collect",
+				"collect_list"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"book",
+				"book_params"
+			],
+			[
+				"Boo",
+				"book_array"
+			],
+			[
+				"find",
+				"find_books"
+			],
+			[
+				"collection",
+				"collection_params"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"company",
+				"company_jobs"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"musical",
+				"musical_id"
+			],
+			[
+				"characte",
+				"character_id"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"uniq",
+				"unique_characters"
+			],
+			[
+				"let",
+				"let_rep"
+			],
+			[
+				"chara",
+				"characters"
+			],
+			[
+				"cha",
+				"characters"
+			],
+			[
+				"eac",
+				"each_character"
+			],
+			[
+				"white",
+				"white_tulip"
+			],
+			[
+				"tip",
+				"tip_percent"
+			],
+			[
+				"annua",
+				"annual_budget"
+			],
+			[
+				"ann",
+				"annual_budget"
+			],
+			[
+				"meal",
+				"meal_price"
+			],
+			[
+				"inte",
+				"integer_two"
+			],
+			[
+				"number",
+				"number_one"
+			],
+			[
+				"require",
+				"require_relative"
+			],
+			[
+				"card",
+				"card_value"
+			],
+			[
+				"my",
+				"my_higher_or_lower"
+			],
+			[
+				"devi",
+				"my_deviation_amount"
+			],
+			[
+				"gr",
+				"grade"
+			],
+			[
+				"gra",
+				"grade_deviation"
+			],
+			[
+				"student",
+				"student_grades"
+			],
+			[
+				"score",
+				"score_total"
+			],
+			[
+				"stude",
+				"student_grades"
+			],
+			[
+				"stu",
+				"student_grades"
+			],
+			[
+				"water",
+				"water_level"
+			],
+			[
+				"drink",
+				"drink_size"
+			],
+			[
+				"to_sym",
+				"to_symb"
+			],
+			[
+				"all",
+				"all_aparts"
+			],
+			[
+				"nu",
+				"num_beds"
+			],
+			[
+				"end",
+				"end_line"
+			],
+			[
+				"start",
+				"start_line"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"ev",
+				"even_numbers"
+			],
+			[
+				"fa",
+				"fav_farewell"
+			],
+			[
+				"ue",
+				"user_name"
+			],
+			[
+				"met",
+				"met_droid"
+			],
+			[
+				"blong",
+				"belongs_to"
+			],
+			[
+				"Mo",
+				"movie"
+			],
+			[
+				"comm",
+				"commenter"
+			],
+			[
+				"rock_paper",
+				"rock_paper_scissors_path"
+			],
+			[
+				"secet",
+				"secret_number"
+			],
+			[
+				"create",
+				"create_user"
+			],
+			[
+				"bui",
+				"building_address"
+			],
+			[
+				"apt",
+				"apt_bathrooms"
+			],
+			[
+				"ap",
+				"apt_bedrooms"
+			],
+			[
+				"Npr",
+				"NprApi"
+			],
+			[
+				"su",
+				"subject"
+			],
+			[
+				"get_inp",
+				"get_input_fox"
+			],
+			[
+				"build",
+				"building_address"
+			],
+			[
+				"bi",
+				"building_name"
+			],
+			[
+				"buil",
+				"building_address"
+			],
+			[
+				"building",
+				"building_name"
+			],
+			[
+				"apt_",
+				"apt_bathrooms"
+			],
+			[
+				"num_",
+				"num_bathrooms"
+			],
+			[
+				"largest",
+				"largest"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Senatorial</title>\n  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>\n  <%= csrf_meta_tags %>\n</head>\n<body>\n  <header>\n    <h1>Senatorial</h1>\n  </header>\n  <div id='search-item-form'></div>\n  <div id='search-item-list'>\n    <span class='add'>Add a Search Item</span>\n  </div>\n  <div id='senator-list'>\n    <span class='add-senator'></span>\n`     <div id='congress-record-list'>\n    <span class='add-congress-record'><h2>Congressional Records Chart</h2><h3>Showing use of phrase in Congress by senators during prior months</h3></span>\n  </div>\n\n  <footer>Brought to you by a former fan of C-SPAN: America's Network!!!\n  </footer>\n\n  <!-- Template for showing search items along with Delete, Edit and Run Search -->\n  <script type=\"text/x-handlebars-template\" id=\"search-item-template\">\n    <div id={{id}}>\n      <h3>States: {{state1}} and {{state2}}, using search phrase: {{phrase}}</h3>\n      <span class='destroy'>Delete</span>\n      <!-- <span class='edit'>Edit</span>\n\n      <a class='runlink' href=\"#/senators/{{state1}}/{{state2}}/{{phrase}}\">\n      <span class='run'>Run Search</span>\n      </a>\n    </div> -->\n  </script>\n\n  <!-- Template for form for adding new searchItems -->\n  <script type=\"text/x-handlebars-template\" id='search-item-form-template'>\n    <div class='search-item-form-div'>\n      <input type=\"text\" name=\"state1\" placeholder=\"State like: CA\">\n      <input type=\"text\" name=\"state2\" placeholder=\"State like: NV\">\n      <input type=\"text\" name=\"phrase\" placeholder=\"Phrase: health\">\n      {{#if this}}\n      <span class='edit-search-item'>Edit Search Item</span>\n      {{else}}\n      <span class='new-search-item'>New Search Item</span>\n      {{/if}}\n      <span class='cancel'>Cancel</span>\n    </div>\n  </script>\n\n  <!-- Template for adding new senators -->\n  <script type=\"text/x-handlebars-template\" id=\"senator-template\">\n  </script>\n\n  <!-- Template for showing new congressRecords -->\n  <script type=\"text/x-handlebars-template\" id=\"congress-record-template\">\n    <div id={{id}}>\n\n      <div id=\"chart2{{id}}\"></div>\n\n      <span class='add-congress-record'></span>\n     \n    </div>\n  </script>\n\n  <script>\n\n    // This starts everything!!!\n    App = {\n      Models: {},\n      Views: {},\n      Collections: {},\n      TempData: {},\n    };\n\n    // Instantiate searchItems collection. Does not fetch yet\n    App.TempData.searchItems = <%= @search_items.to_json.html_safe %>;\n\n  </script>\n\n  <%= javascript_include_tag \"application\" %>\n\n</body>\n</html>\n",
+			"file": "app/views/layouts/application.html.erb",
+			"file_size": 2569,
+			"file_write_time": 1416591560000000,
+			"settings":
+			{
+				"buffer_size": 2564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 1399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/routers/router.js",
+			"settings":
+			{
+				"buffer_size": 3652,
+				"line_ending": "Unix",
+				"name": "router.js"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/models/searchItemModel.js",
+			"settings":
+			{
+				"buffer_size": 815,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/views/searchItemView.js",
+			"settings":
+			{
+				"buffer_size": 3071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/models/senatorModel.js",
+			"settings":
+			{
+				"buffer_size": 3069,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/views/senatorView.js",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/models/congressRecordModel.js",
+			"settings":
+			{
+				"buffer_size": 1691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/views/congressRecordListView.js",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/views/congressRecordView.js",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 3917,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 222.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/searchItemListView.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/senatorListView.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/formView.js",
+		"/Users/mj/dev/wdi/w13/senatorial/Gemfile",
+		"/Users/mj/dev/wdi/w13/senatorial/README.md",
+		"/Users/mj/dev/wdi/w13/senatorial/README.rdoc",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/collections/congressRecordCollection.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/collections/searchItemCollection.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/views/layouts/application_from_foundation.html.erb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/collections/senatorCollection.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/linechartView.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/stylesheets/application.css",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/mj/dev/wdi/w13/senatorial/app/views/layouts/application_b4_foundation.html.erb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/application.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/stylesheets/style.css",
+		"/Users/mj/dev/wdi/w13/senatorial/app/mailers/.keep",
+		"/Users/mj/dev/wdi/w13/senatorial/db/seeds.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/controllers/search_items_controller.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/spec/models/search_item_spec.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/spec/controllers/search_items_controller_spec.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/spec/models/search_item.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/temp.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/senatorView.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/ref.js",
+		"/Users/mj/dev/wdi/w13/senatorial/.git/COMMIT_EDITMSG",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/models/senatorModel.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/linechart.js",
+		"/Users/mj/dev/wdi/w13/senatorial/vendor/assets/stylesheets/applications.css",
+		"/Users/mj/dev/wdi/w13/senatorial/vendor/assets/javascripts/require.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/models/congressRecord.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/models/search_item.wasjs",
+		"/Users/mj/dev/wdi/w13/senatorial/app/views/layouts/application.html.erb",
+		"/Users/mj/dev/wdi/w13/senatorial/db/schema.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/search_item_profile_view.wasjs",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/search_item_profile_view.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/list_view.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/models/search_item.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/controllers/application_controller.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/main.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/assets/javascripts/views/search_item_list_view.js",
+		"/Users/mj/dev/wdi/w13/senatorial/app/controllers/senators_controller.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/.git/MERGE_MSG",
+		"/Users/mj/dev/wdi/w13/senatorial/config/routes.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/models/search_item.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/models/senator.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/app/models/user.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/db/migrate/20141027172912_create_search_items.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/db/migrate/20141027201755_create_join_table_search_item_senator.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/db/migrate/20141027172932_create_senators.rb",
+		"/Users/mj/dev/wdi/w13/senatorial/db/migrate/20141027173336_devise_create_models.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/.git/MERGE_MSG",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/Gemfile",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/config/environments/development.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/config/routes.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/Procfile",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/models/Activity.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/views/outings/show.html.erb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/config/application.yml",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/assets/stylesheets/main.css.scss",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/assets/javascripts/outings.js",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/controllers/activities_controller.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/db/migrate/20141006214028_create_activities.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/db/migrate/20141006213810_create_outings.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/models/activity.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/models/outing.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/models/user.rb",
+		"/Users/mj/dev/wdi/w10/app_etizer/mappetizer/app/assets/stylesheets/application.css",
+		"/Users/mj/Sites/WDI/wdidc2/.git/MERGE_MSG",
+		"/Users/mj/Sites/WDI/wdidc2/w08/d01/students/Martin/okcorgi/style.css",
+		"/Users/mj/Sites/WDI/wdidc2/index.html",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/homework/pixart-jquery-solution/README.md",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/homework/pixart-jquery-solution/ps_neutral.png",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/afternoon_jquery/calculator/style.css",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/afternoon_jquery/calculator/calculator.js",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/afternoon_jquery/calculator/index.html",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/morning_/color-scheme-switcher/css/style.css",
+		"/Users/mj/Sites/WDI/wdidc2/w07/d03/students/Martin/morning_/color-scheme-switcher/index.html",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/books_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/authors_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/collections_controller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/config/routes.rb",
+		"/Users/mj/dev/wdi/w06/next_books/Gemfile",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/new.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/collection.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/show.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135254_create_books.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/README.rdoc",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/layouts/application.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/author.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/book.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/assets/stylesheets/normalize.css",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/_form.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/books/_book.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140909185243_add_user_id_to_books.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/show.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/new.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/collections/index.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/db/schema.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/seeds.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135309_create_authors.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908135322_create_collections.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/edit.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/views/authors/_author.html.erb",
+		"/Users/mj/dev/wdi/w06/next_books/app/controllers/authors_contoller.rb",
+		"/Users/mj/dev/wdi/w06/next_books/db/migrate/20140908144944_devise_create_users.rb",
+		"/Users/mj/dev/wdi/w06/next_books/app/models/user.rb",
+		"/Users/mj/dev/wdi/w06/next_books/config/environments/development.rb",
+		"/Users/mj/dev/wdi/w04/d04/ts/app/views/layouts/application.html.erb",
+		"/Users/mj/dev/wdi/w04/d04/ts/Gemfile",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/Gemfile",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/app/helpers/sessions_helpers.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/schema.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828152303_create_user.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/app/views/new.html.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828150951_create_users.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d04/students/Martin/test_app/db/migrate/20140828153031_create_users.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/config/database.yml",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/models/tweet.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/models/user.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/morning_rails/tweeter/app/controllers/application_controller.rb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/jobbed_out/views/users.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w04/d02/students/Martin/jobbed_out/views/user.erb",
+		"/Users/mj/Sites/WDI/wdidc2/w03/d05/students/Martin/super/superheroes.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"favicon",
+			"linechart",
+			"            ",
+			"this",
+			"/senators",
+			"senator",
+			"getFormData",
+			"class='search-item",
+			"class='search-item'",
+			"search-item",
+			"chart",
+			"senator",
+			"Senator",
+			"Conress",
+			"Senator",
+			"SearchItem",
+			"searchItem",
+			"search-item",
+			"searchItem",
+			"SearchItem",
+			"searchItemsListView",
+			"SearchItem.create(state1: 'VA', state2: 'MD', phrase: 'Iraq', result1: 6, result2: 12),",
+			"collection",
+			"author",
+			"authors",
+			"Authors",
+			"movie",
+			"Movie",
+			"\"",
+			"collections",
+			"collection",
+			"collection_params",
+			"collection",
+			"collections",
+			"Collection",
+			"collection",
+			"collections",
+			"Collection",
+			"class",
+			"new",
+			"Calculator.new",
+			"num_baths",
+			"beds",
+			"start",
+			"serve_static_assets",
+			"comments",
+			",latitude",
+			"comments",
+			"location",
+			"images_url",
+			"movie",
+			"movies",
+			"Link",
+			"<%#",
+			"<%",
+			"<%# ",
+			"<%",
+			"<%#",
+			"<%",
+			"\n",
+			"']\n",
+			"story",
+			"digg",
+			"category",
+			"!!\"",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"congressRecord",
+			"CongressRecord",
+			"Congress",
+			"ConressRecord",
+			"Senator",
+			"senator",
+			"Senator",
+			"outing",
+			"activity",
+			"activities",
+			"Activities",
+			"outing",
+			"Outing",
+			"authors",
+			"author",
+			"author_params",
+			"author",
+			"authors",
+			"Author",
+			"artist",
+			"artists",
+			"Artist",
+			"calc",
+			"bath",
+			"end",
+			"finish",
+			"# comments",
+			"#, latitude",
+			"fires: \"Permitted\", activities: \"Canoeing\", comments",
+			"address",
+			"painting",
+			"Painting",
+			"painting",
+			"Painting",
+			"painting",
+			"Painting",
+			"paintings",
+			"painting",
+			"Painting"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 2564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 1399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 295.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/routers/router.js",
+					"settings":
+					{
+						"buffer_size": 3652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"auto_name": "router.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/javascripts/models/searchItemModel.js",
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/javascripts/views/searchItemView.js",
+					"settings":
+					{
+						"buffer_size": 3071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1117,
+								1117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 398.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/javascripts/models/senatorModel.js",
+					"settings":
+					{
+						"buffer_size": 3069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/javascripts/views/senatorView.js",
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/javascripts/models/congressRecordModel.js",
+					"settings":
+					{
+						"buffer_size": 1691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/assets/javascripts/views/congressRecordListView.js",
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 181.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/assets/javascripts/views/congressRecordView.js",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/assets/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 3917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 192.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"campmap",
+				"app/views/camps/_map.html.erb"
+			],
+			[
+				"config",
+				"config/application.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"movierb",
+				"app/models/movie.rb"
+			],
+			[
+				"games",
+				"app/controllers/games_controller.rb"
+			],
+			[
+				"",
+				"app/views/games/index.html.erb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": false
+}

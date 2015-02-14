@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Senatorial</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <h1>Senatorial</h1>
+  </header>
+  <article>
+    <div class='container'>  
+      <div id='search-item-form'></div>
+      <div id='search-item-list'>
+        <span class='add'>Add a Search Item</span>
+      </div>
+    </div> 
+    <div id='senator-list'>
+      <span class='add-senator'></span>
+      <div id='congress-record-list'>
+        <span class='add-congress-record'>
+          <div class='podium'>
+          </div>
+          <div class='bottom-chart-text'>
+            <h2>Congressional Records Chart</h2>
+            <h3>Showing use of word in Congress by senators during prior months -- move your cursor into the chart to see details.</h3>
+            <h3> Not all Senators have Congressional Records each month!!! Perhaps, they are busy doing something else?
+           </div> 
+        </span>
+        
+      </div> 
+    </div>
+  </article>
+
+  <footer>Brought to you by a fan of C-SPAN: America's Network!!!
+  </footer>
+
+  <!-- Template for showing search items along with Delete, Edit and Run Search -->
+  <script type="text/x-handlebars-template" id="search-item-template">
+    <div id={{id}}>
+      <h3>States: {{state1}} and {{state2}}, using search word: {{phrase}}</h3>
+      <span class='destroy'>Delete</span>
+    </div>
+  </script>
+
+  <!-- Template for form for adding new searchItems -->
+  <script type="text/x-handlebars-template" id='search-item-form-template'>
+    <div class='search-item-form-div'>
+      <input type="text" name="state1" placeholder="State like: CA">
+      <input type="text" name="state2" placeholder="State like: NV">
+      <input type="text" name="phrase" placeholder="Word like: health">
+      {{#if this}}
+      <span class='edit-search-item'>Edit Search Item</span>
+      {{else}}
+      <span class='new-search-item'>New Search Item</span>
+      {{/if}}
+      <span class='cancel'>Cancel</span>
+    </div>
+  </script>
+
+  <!-- Template for adding new senators -->
+  <!-- Not currently used -->
+  <script type="text/x-handlebars-template" id="senator-template">
+  </script>
+
+  <!-- Template for showing new congressRecords -->
+  <script type="text/x-handlebars-template" id="congress-record-template">
+    <div>
+      <div class='floor'>
+      </div>
+      <div class='chart' id="chart2{{id}}"></div>
+      <span class='add-congress-record'></span>
+    </div>
+  </script>
+
+  <script>
+
+    // This creates namespacing
+    App = {
+      Models: {},
+      Views: {},
+      Collections: {},
+      TempData: {},
+    };
+
+    // Instantiate searchItems collection. Does not fetch yet
+    App.TempData.searchItems = <%= @search_items.to_json.html_safe %>;
+
+  </script>
+
+  <%= javascript_include_tag "application" %>
+
+</body>
+</html>

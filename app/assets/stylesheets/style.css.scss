@@ -1,0 +1,182 @@
+/*
+		Overall Structure
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+header {
+	width: 100%;
+	display: block;
+	background-color: #33cec3;
+	color: #00665e;
+}
+
+article {
+	display: block;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	background-color: #00665e;
+	color: #5dcec6;
+	padding-bottom: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+/*
+		Headers and input
+*/
+
+h1 {
+	background-color: #00665e;
+	color: #5dcec6;
+	margin: 0;
+	padding: 10px;
+}
+
+h2 {
+	padding: 10px;
+}
+
+h5, h3 {
+	margin: 10px auto 10px 10px;
+	padding: 10px;
+	color: #00665e;;
+}
+
+div#search-item-list h3 {
+	color: #1A4A00;
+}
+
+input {
+	margin: 10px auto 10px 10px;
+	position: relative;
+	top: 15px;
+}
+
+/*
+	Spans and links
+*/
+
+span.new-search-item, span.cancel, span.destroy, span.edit, span.add{
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 10px 7px 10px;
+	background-color: #33c3d7;
+	color: #00665e;
+	margin: 10px 20px 30px 10px;
+	border-radius: 5px;
+	position: relative;
+	top: 15px;
+}
+
+a:link, a:visited{
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 10px 7px 10px;
+	background-color: #33c3d7;
+	color: #00665e;
+	margin: 10px 0 0 10px;
+	border-radius: 5px;
+}
+
+a:hover, a:active {
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 7px 10px 7px 10px;
+	background-color: #006363;
+	color: #33c3d7;
+	margin: 10px 0 0 10px;
+	border-radius: 5px;
+}
+
+/*
+		Div ids
+*/
+
+div#search-item-form {
+	display: none;
+	margin-bottom: 10px;
+}
+
+div.search-item {
+	width: 400px;
+	background-color: hsla(180,100%,50%,0.3);
+	z-index: 1;
+	padding: 0 0 30px 0;
+	margin: 20px 0;
+	position: relative;
+	top: 10px;
+}
+
+/*
+		Div classes
+*/
+
+div.container {
+	display: block;
+	margin-top: 170px;
+	height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: image-url('Congress-4A.png');
+}
+
+div.bottom-chart-text {
+	display: inline-block;
+	width: 60%;
+	height: 320px;
+	background-color: #33cec3;
+	color: #00665e;
+/*	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('/assets/senate-floor3.png');*/
+	float: left;
+}
+
+div.podium {
+	display: inline-block;
+	width: 40%;
+	height: 320px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: image-url('senate-floor3.jpg');
+	float: right;
+}
+
+div.floor {
+	display: inline-block;
+	width: 40%;
+	height: 360px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: image-url('senate-floor.jpg');
+	float: left;
+}
+
+div.chart {
+	display: inline-block;
+	float: right;
+	/*clear: left;*/
+	width: 60%;
+	height: 360px;
+}
+
+
+
+
