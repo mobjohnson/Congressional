@@ -7,14 +7,15 @@ App.Router = Backbone.Router.extend({
     'search_items/:id/edit': 'editSearchItem',
     'senators/:state1/:state2/:phrase': 'runSearch',
     'congress_records/:bioguideid/:phrase': 'runRecord',
+
+    // Not implemented yet?
     'congress_records/:senator_name/recordCounts': 'loadChart'
   },
 
   initialize: function(){
     // Instantiate searchItems collection. Does NOT fetch yet
     App.Collections.searchItems = new App.SearchItemCollection(App.TempData.searchItems);
-    // Instantiate senators collection. Does NOT fetch yet
-    App.Collections.senators = new App.SenatorCollection({});
+
     // Instantiate congressRecords collection.
     // Does NOT fetch yet
     App.Collections.congressRecords = new App.CongressRecordCollection({});
@@ -25,8 +26,6 @@ App.Router = Backbone.Router.extend({
     // Instantiate searchItem form view, pass collection to it
     App.Views.searchItemFormView = new App.SearchItemFormView({collection: App.Collections.searchItems});
 
-    // Instantiate senator collection view, pass collection to it
-    App.Views.senatorListView = new App.SenatorListView({collection: App.Collections.senators});
 
     // Instantiate congressRecords collection view, pass collection to it
     App.Views.congressRecordListView = new App.CongressRecordListView({collection: App.Collections.congressRecords});
