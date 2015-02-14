@@ -5,7 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-SearchItem.create(state1: 'VA', state2: 'MD', phrase: 'Iraq')
+# SearchItem.create(state1: 'VA', state2: 'MD', phrase: 'Iraq')
 # SearchItem.create(state1: 'NC', state2: 'SC', phrase: 'Ukraine')
 #SearchItem.create(state1: 'NY', state2: 'FL', phrase: 'Ebola')
 # Senator.create(sr_senator: 'Mark Warner', jr_senator: 'Tim Kaine')
