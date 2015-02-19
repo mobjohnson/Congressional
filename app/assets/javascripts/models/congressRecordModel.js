@@ -1,7 +1,11 @@
 App.CongressRecordModel = Backbone.Model.extend({
 
+  //  test
+
+  // http://capitolwords.org/api/1/dates.json?phrase=health&state=CA&start_date= 2013-10-31&end_date=2014-11-01&granularity=month&apikey=3fdb489020354ae7b4e1a1bf75b4a279
+
   url: function(){
-    return "//capitolwords.org/api/1/dates.json?phrase=" + this.phrase + "&state=" + this.state + "&start_date= 2013-10-31&end_date=2014-11-01&granularity=month&apikey=3fdb489020354ae7b4e1a1bf75b4a279"
+    return "//capitolwords.org/api/1/dates.json?phrase=" + this.phrase + "&state=" + this.state + "&start_date= 2014-01-01&end_date=2015-02-10&granularity=month&apikey=3fdb489020354ae7b4e1a1bf75b4a279"
   },
 
   initialize: function(params){
