@@ -6,14 +6,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header>
+  <header id='begin'>
     <h1>Congressional</h1>
   </header>
   <article>
     <div class='container'>  
       <div id='search-item-form'></div>
       <div id='search-item-list'>
-        <span class='add'>Add a Search Item</span>
+        <span class='add' id='top'>Add a Search Item</span>
       </div>
     </div> 
     <div id='senator-list'>
@@ -23,6 +23,7 @@
           <div class='podium'>
           </div>
           <div class='bottom-chart-text'>
+            <a href='#begin'>Return to Top</a>
             <h2>Congressional Records Chart</h2>
             <h3>Showing use of word in Congress by congressmen during prior months -- move your cursor into the chart to see details.</h3>
            </div> 

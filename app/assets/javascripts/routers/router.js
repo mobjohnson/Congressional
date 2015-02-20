@@ -39,14 +39,14 @@ App.Router = Backbone.Router.extend({
   },
 
   newSearchItem: function(){
+    // Hide Search button
+    $('.add').hide();
+    
     // Unset the model on formView if one exists
     App.Views.searchItemFormView.model = null;
 
     // Re-render form view without model
     App.Views.searchItemFormView.render();
-
-    // Hide Search button
-    // $('.add').hide();
 
     // Fade in form
     $('#search-item-form').fadeIn(500);
@@ -68,6 +68,8 @@ App.Router = Backbone.Router.extend({
 
     // Show form
     $('#search-item-form').show();
+
+
   },
     
   runSearch: function(state1, state2, phrase){
