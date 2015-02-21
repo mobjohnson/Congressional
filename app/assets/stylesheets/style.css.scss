@@ -68,7 +68,7 @@ input {
 	Spans and links
 */
 
-span.new-search-item, span.cancel, span.destroy, span.edit, span.add{
+.new-search-item, .cancel, .destroy, .edit, .add{
 	font-size: 10pt;
 	font-weight: bold;
 	text-decoration: none;
@@ -80,6 +80,27 @@ span.new-search-item, span.cancel, span.destroy, span.edit, span.add{
 	position: relative;
 	top: 15px;
 }
+
+.new-search-item:hover, .cancel:hover, .destroy:hover, .edit:hover, .add:hover, .new-search-item:active, .cancel:active, .destroy:active, .edit:active, .add:active, {
+	background-color: #00665e;
+	color: #33c3d7;
+}
+
+
+
+
+// span.new-search-item, span.cancel, span.destroy, span.edit, span.add{
+// 	font-size: 10pt;
+// 	font-weight: bold;
+// 	text-decoration: none;
+// 	padding: 7px 10px 7px 10px;
+// 	background-color: #33c3d7;
+// 	color: #00665e;
+// 	margin: 10px 20px 30px 10px;
+// 	border-radius: 5px;
+// 	position: relative;
+// 	top: 15px;
+// }
 
 a:link, a:visited{
 	font-size: 10pt;
@@ -102,6 +123,10 @@ a:hover, a:active {
 	margin: 10px 0 0 10px;
 	border-radius: 5px;
 }
+
+
+
+
 
 /*
 		Div ids
