@@ -30,6 +30,7 @@ var SearchItemView = Backbone.View.extend({
     // render one chart for each searchItem
     console.log('searchItemView - recordCollection in render:', recordCollection);
     var chartValues = [];
+    var monthValues = ['x'];
 
     // set up for test for undefined
     console.log('searchItemView - this.models in render:', this.models);
@@ -39,6 +40,7 @@ var SearchItemView = Backbone.View.extend({
       for (var i = 1; i < recordCollection.models.length; i++) {
 
         var chartValue = [];
+        var monthValue = [];
         console.log('recordCollection.models[i].attributes.state', recordCollection.models[i].attributes.state);
 
         // Add the state name to chartValue array
@@ -48,13 +50,45 @@ var SearchItemView = Backbone.View.extend({
           console.log('recordCollection.models[i].attributes.results', recordCollection.models[i].attributes.results);
           var results = recordCollection.models[i].attributes.results
 
-          // // Add the record counts to chartValues Array
+
+         // // Add months to monthValue array
+         //  for (var j = 0; j < results.length; j++) {
+         //    monthValue.push(results[j].month);
+         //  };
+
+         //  // Add monthValue array to front of chartValues array
+         //  //  fo first record only
+         //  if (i = 0) {
+         //    chartValues.push(monthValue);
+         //  };
+          
+
+
+
+          // Add the record counts to chartValues Array
+ 
           for (var j = 0; j < results.length; j++) {
             chartValue.push(results[j].count);
+            monthValue.push(results[j].month)
           };
           // Add this chartValue to chartValues array
           chartValues.push(chartValue);
           console.log('chartValues: ', chartValues);
+          // // set the months to monthValues array
+          if (monthValue.length > monthValues.length) {
+            monthValues = monthValue;
+          };  
+
+
+
+          // on last run through, put months in front of 
+          // chartValues array
+
+          // if (i == 1) {
+          //   chartValues.unshift(monthValues);
+          // };
+
+
 
         };
       };
@@ -64,15 +98,23 @@ var SearchItemView = Backbone.View.extend({
     var chart2 = c3.generate({
       bindto: '#chart2',
       data: {
+        // x: 'x',
+        // xFormat: '%Y%m',
         columns: chartValues
+ 
       },
       axis: {
         x: {
-          // height: 15,
-          label: 'Months'
+          label: 'Prior Months'
+
+          // add a comma above
+
+         //  tick: {
+         //   format: '%Y%m'
+         // }       
         },
+  
         y: {
-          // height: 15,
           label: 'Congressional Records'
         }
       }
