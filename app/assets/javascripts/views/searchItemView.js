@@ -65,6 +65,16 @@ var SearchItemView = Backbone.View.extend({
       bindto: '#chart2',
       data: {
         columns: chartValues
+      },
+      axis: {
+        x: {
+          // height: 15,
+          label: 'Months'
+        },
+        y: {
+          // height: 15,
+          label: 'Congressional Records'
+        }
       }
     });
 
