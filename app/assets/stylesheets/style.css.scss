@@ -87,41 +87,25 @@ input {
 }
 
 
-
-
-// span.new-search-item, span.cancel, span.destroy, span.edit, span.add{
-// 	font-size: 10pt;
-// 	font-weight: bold;
-// 	text-decoration: none;
-// 	padding: 7px 10px 7px 10px;
-// 	background-color: #33c3d7;
-// 	color: #00665e;
-// 	margin: 10px 20px 30px 10px;
-// 	border-radius: 5px;
-// 	position: relative;
-// 	top: 15px;
-// }
-
-a:link, a:visited{
+a{
+	display: block;
+	width: 100px;
 	font-size: 10pt;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 7px 10px 7px 10px;
-	background-color: #33c3d7;
-	color: #00665e;
 	margin: 10px 0 0 10px;
 	border-radius: 5px;
 }
 
-a:hover, a:active {
-	font-size: 10pt;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 7px 10px 7px 10px;
+a:link, a:visited{
 	background-color: #006363;
 	color: #33c3d7;
-	margin: 10px 0 0 10px;
-	border-radius: 5px;
+}
+
+a:hover, a:active {
+	background-color: #33c3d7;
+	color: #00665e;
 }
 
 
