@@ -40,7 +40,7 @@
 
   <!-- Template for showing search items along with Delete, Edit and Run Search -->
   <script type="text/x-handlebars-template" id="search-item-template">
-    <div id={{id}}>
+    <div>
       <h3>States: {{state1}} and {{state2}}, using search word: {{phrase}}</h3>
       <span class='destroy'>Delete</span>
     </div>
@@ -68,10 +68,10 @@
 
   <!-- Template for showing new congressRecords -->
   <script type="text/x-handlebars-template" id="congress-record-template">
-    <div>
+    <div id={{id}}>
       <div class='floor'>
       </div>
-      <div class='chart' id="chart2{{id}}"></div>
+      <div class='chart' id="chart2"></div>
       <span class='add-congress-record'></span>
     </div>
   </script>

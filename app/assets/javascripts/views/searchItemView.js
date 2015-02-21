@@ -33,15 +33,15 @@ var SearchItemView = Backbone.View.extend({
 
     // set up for test for undefined
     console.log('searchItemView - this.models in render:', this.models);
-    console.log('searchItemView - this in render:&&&&&&&&&&&&&&&', this);
+    console.log('searchItemView - this in render:', this);
     this.models = recordCollection.models
     if (this.models != undefined){
       for (var i = 1; i < recordCollection.models.length; i++) {
 
         var chartValue = [];
-        console.log('recordCollection.models[i].attributes.state********************', recordCollection.models[i].attributes.state);
+        console.log('recordCollection.models[i].attributes.state', recordCollection.models[i].attributes.state);
 
-        // Add the senator name to chartValue array
+        // Add the state name to chartValue array
         chartValue.push(recordCollection.models[i].attributes.state);
 
         if (recordCollection.models[i].attributes.results != undefined){
@@ -68,7 +68,7 @@ var SearchItemView = Backbone.View.extend({
       }
     });
 
-    this.$el.html(this.template(this.model.toJSON()));
+    this.$el.delay(750).html(this.template(this.model.toJSON()));
 
   },
 
@@ -86,18 +86,6 @@ var SearchItemView = Backbone.View.extend({
         alert("Your Search Item could not be destroyed.");
       }
     });
-    
-    // Annoying pop-up box;
-    // if (confirm('Are you sure?')){
-    //   this.model.destroy({
-    //     success: function(model, response, options){
-    //       self.remove();
-    //     },
-    //     error: function(model, response, options){
-    //       alert("Your Search Item could not be destroyed.");
-    //     }
-    //   });
-    // }
   },
 
 
