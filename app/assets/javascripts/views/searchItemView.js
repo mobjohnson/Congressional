@@ -41,6 +41,8 @@ var SearchItemView = Backbone.View.extend({
 
         var chartValue = [];
         var monthValue = [];
+        var monthIn = '';
+        var monthOut = '';
         console.log('recordCollection.models[i].attributes.state', recordCollection.models[i].attributes.state);
 
         // Add the state name to chartValue array
@@ -69,7 +71,13 @@ var SearchItemView = Backbone.View.extend({
  
           for (var j = 0; j < results.length; j++) {
             chartValue.push(results[j].count);
-            monthValue.push(results[j].month)
+            // Add months in revised format
+            monthIn = results[j].month;
+            monthOut = monthIn.slice(0,4);
+            monthOut = monthOut.concat('/');
+            monthOut = monthOut.concat(monthIn.slice(4,6));
+            // monthOut = monthOut.concat('-01');
+            monthValue.push(monthOut);
           };
           // Add this chartValue to chartValues array
           chartValues.push(chartValue);
@@ -119,18 +127,19 @@ var SearchItemView = Backbone.View.extend({
       bindto: '#chart2',
       data: {
         x: 'x',
-        xFormat: '%Y%m',
+        xFormat: '%Y/%m',
         columns: chartValues
  
       },
       axis: {
         x: {
+          type: 'timeseries',
           label: 'Prior Months',
 
           // add a comma above
-
+ 
           tick: {
-           format: '%Y%m'
+           format: '%Y/%m'
          }       
         },
   
