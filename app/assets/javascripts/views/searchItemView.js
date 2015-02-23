@@ -149,7 +149,7 @@ var SearchItemView = Backbone.View.extend({
       }
     });
 
-    this.$el.delay(750).html(this.template(this.model.toJSON()));
+    this.$el.delay(1000).html(this.template(this.model.toJSON()));
 
   },
 
