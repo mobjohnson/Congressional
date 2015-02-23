@@ -75,16 +75,36 @@ var SearchItemView = Backbone.View.extend({
           chartValues.push(chartValue);
           console.log('chartValues: ', chartValues);
           // // set the months to monthValues array
+
           if (monthValue.length > monthValues.length) {
             monthValues = monthValue;
+          // } else if (monthValue.length > monthValues.length) {
+          //   monthValues = monthValue;
           };  
 
+           // on last run through
+          if (chartValues.length == 2) {
 
+            // make the two arrays equal length
+            while (chartValues[0].length > chartValues[1].length) {
+              chartValues[0].pop();
+              monthValues.pop();
+            };
+              
+            while (chartValues[1].length > chartValues[0].length) {
+              chartValues[1].pop();
+              monthValues.pop(); 
+            };
 
-          // on last run through, put months in front of 
+            // Add months as first item in chartValues array
+            monthValues.unshift('x');
+            chartValues.unshift(monthValues);
+          };
+
+          // put months in front of 
           // chartValues array
 
-          // if (i == 1) {
+          // if (i == 3) {
           //   chartValues.unshift(monthValues);
           // };
 
@@ -98,20 +118,20 @@ var SearchItemView = Backbone.View.extend({
     var chart2 = c3.generate({
       bindto: '#chart2',
       data: {
-        // x: 'x',
-        // xFormat: '%Y%m',
+        x: 'x',
+        xFormat: '%Y%m',
         columns: chartValues
  
       },
       axis: {
         x: {
-          label: 'Prior Months'
+          label: 'Prior Months',
 
           // add a comma above
 
-         //  tick: {
-         //   format: '%Y%m'
-         // }       
+          tick: {
+           format: '%Y%m'
+         }       
         },
   
         y: {
