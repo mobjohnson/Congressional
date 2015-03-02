@@ -8,7 +8,7 @@ The User puts in a couple of states, like CA and NV and a phrase like health. Th
 
 This is a single page app that has a Rails backend on the first model and is using Backbone with two Models.
 
-[Visit Congressional] (https://secure-plains-1434.herokuapp.com/)
+[Visit Congressional] (http://secure-plains-1434.herokuapp.com/)
 
 Senatorial uses one external API:
 Capitol Words: http://tryit.sunlightfoundation.com/capitolwords
