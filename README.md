@@ -2,18 +2,24 @@
 
 ###Overview
 
-**Senatorial** tells you what senators and conressmen are talking about on the floor of the House or Senate.  
+**Congressional** tells you what senators and conressmen are talking about on the floor of the House or Senate.  
 
 The User puts in a couple of states, like CA and NV and a phrase like health. Then it uses the Capital Words API to return the number of Congressional Records over the last few years that contain that phrase. All displayed in a line chart using D3 and C3!
 
 This is a single page app that has a Rails backend on the first model and is using Backbone with two Models.
 
-[Visit Congressional] (http://secure-plains-1434.herokuapp.com/)
+[Visit Congressional] (http://radiant-dusk-8156.herokuapp.com/)
 
 Senatorial uses one external API:
 Capitol Words: http://tryit.sunlightfoundation.com/capitolwords
 
 Based on two states and phrase query selections by the user, data is passed to the Capital Words API.
+
+###Development History
+
+**Congressional** is a cloned and refactored version of **Senatorial**, which was a more complex app that yielded inconsitent API results. This was due to the fact that an individual senator does not have a congressional record every month.
+
+[Visit Senatorial] (http://secure-plains-1434.herokuapp.com/)
 
 ###Backlog: 
 
