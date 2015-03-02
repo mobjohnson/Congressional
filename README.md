@@ -1,34 +1,34 @@
-#Senatorial
+#Congressional
 
 ###Overview
 
-**Senatorial** tells you what senators are talking about on the floor of the senate or in a committee meeting.  
+**Senatorial** tells you what senators and conressmen are talking about on the floor of the House or Senate.  
 
-The User puts in a couple of states, like CA and NV and a phrase like health. First it finds the four senators for those two states from one API. Then it uses another API to return the number of Congressional Records over the last few months that contain that phrase. All displayed in a line chart using D3 and C3!
+The User puts in a couple of states, like CA and NV and a phrase like health. Then it uses the Capital Words API to return the number of Congressional Records over the last few years that contain that phrase. All displayed in a line chart using D3 and C3!
 
-This is a single page app that has a Rails backend on the first model and is using Backbone with all three Models.
+This is a single page app that has a Rails backend on the first model and is using Backbone with two Models.
 
-[Visit Senatorial] (https://secure-plains-1434.herokuapp.com/)
+[Visit Congressional] (https://secure-plains-1434.herokuapp.com/)
 
-Senatorial uses two external APIs:
-GovTrak.us: https://www.govtrack.us/developers/api
+Senatorial uses one external API:
 Capitol Words: http://tryit.sunlightfoundation.com/capitolwords
 
-Based on two states and phrase query selections by the user, data is pulled from the GobTrak API and subsequently passed to the Capital Words API.
+Based on two states and phrase query selections by the user, data is passed to the Capital Words API.
 
 ###Backlog: 
 
-![](app/assets/images/SenatorialUserStories.png)
+![](app/assets/images/CongressionalUserStories.png)
 
 ###Technology used:
 - Ruby on Rails
+- JavaScript/JQuery
 - Backbone.js
 - D3.js
 - C3.js
 
 ###ERD:
 
-![](app/assets/images/erd.png)
+![](app/assets/images/CongressionalERD.png)
 
 ### Local Setup
 
@@ -39,7 +39,7 @@ Based on two states and phrase query selections by the user, data is pulled from
     rails s
 
     Open the page locally on http://localhost:3000.
-    Note that you will need to request access token for the Congress Words API and replace it as appropriate within the code. 
+    Note that you will need to request access token for the Capital Words API and replace it as appropriate within the code. 
     
 =
 ######Written by Martin Johnson
