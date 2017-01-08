@@ -17,22 +17,38 @@ App.CongressRecordModel = Backbone.Model.extend({
       console.log('congressRecordModel (#initialize) this:', this);
 
       // do fetch
-      if (this.phrase){
-        this.fetch({
-          success: function(data){
-            console.log('Beginning of congressRecordModel fetch');
-            console.log('congressRecordModel (#initialize/this.fetch/#success data:', data);
-            console.log('congressRecordModel (#initialize/this.fetch/#success this:', this);
+      // The Capitol Words API shut down in February 2016. Although some of this API's functionality
+      // was trasfered to the GovTrack API, the detailed info provided by this API no longer exists
+      // if (this.phrase){
+      //   this.fetch({
+      //     success: function(data){
+      //       console.log('Beginning of congressRecordModel fetch');
+      //       console.log('congressRecordModel (#initialize/this.fetch/#success data:', data);
+      //       console.log('congressRecordModel (#initialize/this.fetch/#success this:', this);
 
-            // set recordCounts to array of Congress Records matching criteria.
-            // recordCounts includes both numbers of records and  the months.
-            this.recordCounts = data.attributes.results;
-            console.log('congressRecordModel (initialize/this.fetch/#success data.attributes.results: ', this.recordCounts);
-          }
-        });
+      //       // set recordCounts to array of Congress Records matching criteria.
+      //       // recordCounts includes both numbers of records and  the months.
+      //       this.recordCounts = data.attributes.results;
+      //       console.log('congressRecordModel (initialize/this.fetch/#success data.attributes.results: ', this.recordCounts);
+      //     }
+      //   });
+      // }
+
+      var results = [];
+      var result = {};
+      var year = "2016";
+      var month = 1;
+      for(var i=1; i < 10; i++){
+        result.month = year + "-" + i.toString();
+        result.count = Math.random() * 25;
+        results = results.concat(result);
       }
+      console.log('votes results ', results);
+      this.recordCounts = results;
+      this.set("results", results);
+      // this.recordCounts.attributes = results;
                               
-    console.log('post fetch congressRecordModel (#initialize) this:', this);
+      console.log('post fetch congressRecordModel (#initialize) this:', this);
     }  
   }
 

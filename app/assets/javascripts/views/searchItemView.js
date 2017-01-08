@@ -53,22 +53,7 @@ var SearchItemView = Backbone.View.extend({
           var results = recordCollection.models[i].attributes.results
 
 
-         // // Add months to monthValue array
-         //  for (var j = 0; j < results.length; j++) {
-         //    monthValue.push(results[j].month);
-         //  };
-
-         //  // Add monthValue array to front of chartValues array
-         //  //  fo first record only
-         //  if (i = 0) {
-         //    chartValues.push(monthValue);
-         //  };
-          
-
-
-
-          // Add the record counts to chartValues Array
- 
+          // Add the record counts to chartValues Array 
           for (var j = 0; j < results.length; j++) {
             chartValue.push(results[j].count);
             // Add months in revised format
